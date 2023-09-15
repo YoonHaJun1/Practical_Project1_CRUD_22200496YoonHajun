@@ -223,7 +223,7 @@ public class WordCRUD implements ICRUD {
         try {
             PrintWriter pw = new PrintWriter(new FileWriter(fname));
             for(Word one : list) {
-                pw.write(one.toString() + "\n");
+                pw.write(one.toFileString() + "\n");
             }
             pw.close();
             System.out.println("데이터 저장을 완료했습니다. ");

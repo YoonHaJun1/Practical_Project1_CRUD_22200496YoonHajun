@@ -58,4 +58,7 @@ public class Word {
 
         return String.format("%-3s", slevel) + String.format("%15s", word) + " " + meaning;
     }
+    public String toFileString() {
+        return this.level + "|" + this.word + "|" + this.meaning;
+    }
 }

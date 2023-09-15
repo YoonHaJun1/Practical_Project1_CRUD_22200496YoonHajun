@@ -13,6 +13,10 @@ public class Word {
         this.meaning = meaning;
     }
 
+    public Word() {
+
+    }
+
     public int getId() {
         return id;
     }
